@@ -20,3 +20,4 @@ urlpatterns = [
     path('api/questions/', views.get_questions, name='get_questions'),
     path('api/question/<int:pk>', views.update_question, name='update_question'),
 ]
+

@@ -1,0 +1,57 @@
+Question 1
+
+
+
+
+Question 2
+It shows a default landing page, when you have no paths set yet.
+
+
+
+Question 3
+Navigating to / now will cause a 404 error with Django showing its own custom 
+error page because debug mode is on. 
+
+Navigating to polls will show an empty page with the message "Hello, world. You're at the polls index."
+
+
+
+Question 4
+Django migration refers to the making changes to a database schema or structure while keeping the data intact.
+
+You would use them for making Database Schema Changes
+                       ensuring Data Integrity
+                       porting Databases
+
+There are other uses but these are the main ones.
+
+
+
+Question 5
+You will see a GUI for of a basic admin dashboard. you can see/set different users and groups. 
+You can also see custom models here and can add data into your database.
+
+to make custom models appear in the admin page, you will have to register the models using
+admin.site.register([custom model name])
+
+
+
+
+Question 6
+/polls/38/
+    You will see "You're looking at question 38."
+/polls/38/results
+    You will see "You're looking at the results of question 38."
+/polls/38/vote
+    You will see "You're voting on question 38."
+
+
+
+Question 7
+
+
+
+
+
+
+Question 8
