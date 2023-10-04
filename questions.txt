@@ -1,14 +1,14 @@
-Question 1
+!---------------------Question 1---------------------!
+https://github.com/anujpradeep/CMPUT404_Lab3_Django
 
 
 
-
-Question 2
+!---------------------Question 2---------------------!
 It shows a default landing page, when you have no paths set yet.
 
 
 
-Question 3
+!---------------------Question 3---------------------!
 Navigating to / now will cause a 404 error with Django showing its own custom 
 error page because debug mode is on. 
 
@@ -16,7 +16,7 @@ Navigating to polls will show an empty page with the message "Hello, world. You'
 
 
 
-Question 4
+!---------------------Question 4---------------------!
 Django migration refers to the making changes to a database schema or structure while keeping the data intact.
 
 You would use them for making Database Schema Changes
@@ -27,7 +27,7 @@ There are other uses but these are the main ones.
 
 
 
-Question 5
+!---------------------Question 5---------------------!
 You will see a GUI for of a basic admin dashboard. you can see/set different users and groups. 
 You can also see custom models here and can add data into your database.
 
@@ -36,8 +36,7 @@ admin.site.register([custom model name])
 
 
 
-
-Question 6
+!---------------------Question 6---------------------!
 /polls/38/
     You will see "You're looking at question 38."
 /polls/38/results
@@ -48,7 +47,9 @@ Question 6
 If you put a string, it will return 404 Page not found as the url path we set HAS to be a int.
 To allow characters, in polls/urls.py, the paths should take str as question_id instead of int.
 
-Question 7
+
+
+!---------------------Question 7---------------------!
 If the urls are hardcoded, it will be hard to maintain the urls if some change has occurred.
 
 If the urls are hardcoded, it defeats the purpose of a template. In the case we have in part 3, where /polls/[an int] will take you to a different page,
@@ -56,7 +57,7 @@ you would have to hardcode each number for the url e.g. [polls/1, polls/2 ... po
 
 
 
-Question 8
+!---------------------Question 8---------------------!
 Using Generic views provide simple to use, reuseable view logic. This makes development much faster as you dont have to write custom view code for each view.
 This also makes it easy to maintain and read the code.
 
