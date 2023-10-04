@@ -45,13 +45,25 @@ Question 6
 /polls/38/vote
     You will see "You're voting on question 38."
 
-
+If you put a string, it will return 404 Page not found as the url path we set HAS to be a int.
+To allow characters, in polls/urls.py, the paths should take str as question_id instead of int.
 
 Question 7
+If the urls are hardcoded, it will be hard to maintain the urls if some change has occurred.
 
-
-
+If the urls are hardcoded, it defeats the purpose of a template. In the case we have in part 3, where /polls/[an int] will take you to a different page,
+you would have to hardcode each number for the url e.g. [polls/1, polls/2 ... polls/n]. This makes it hard to read and maintain the code
 
 
 
 Question 8
+Using Generic views provide simple to use, reuseable view logic. This makes development much faster as you dont have to write custom view code for each view.
+This also makes it easy to maintain and read the code.
+
+When you should use it:
+When there are common use cases like displaying list of objects, creating objects, etc. 
+Also when rapid development for prototypes to save time.
+
+When not to:
+If the views you are trying to create is highly different from the generic ones, where making your own is faster
+and more efficient. 
