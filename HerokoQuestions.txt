@@ -1,0 +1,10 @@
+!---------------------Question 1---------------------!
+the 3 ways are 
+     - Heroku CLI
+     - Github Integration
+     - Container Registry using Heroku CLI
+
+!---------------------Question 2---------------------!
+Procfile is a configuration file used in the context of Heroku. Used to specify the commands  that should be executed by Heroku to run your application
+!---------------------Question 3---------------------!
+https://apradeeplab6app-f4265f3c9c2d.herokuapp.com/
